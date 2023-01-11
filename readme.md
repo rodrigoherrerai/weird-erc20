@@ -35,9 +35,10 @@ behaviours to avoid.
 
 # Tokens
 
-## Reentrant Calls
+## 
+Calls
 
-Some tokens allow reentract calls on transfer (e.g. `ERC777` tokens).
+Some tokens allow reentrant calls on transfer (e.g. `ERC777` tokens).
 
 This has been exploited in the wild on multiple occasions (e.g. [imBTC uniswap pool
 drained](https://defirate.com/imbtc-uniswap-hack/), [lendf.me
